@@ -1,4 +1,5 @@
 # Beecrowd problem view
+![Ícone da Minha Extensão](icon.png)
 
 Veja o problema do Beecrowd direto em seu vscode
 
