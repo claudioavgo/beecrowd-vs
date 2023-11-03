@@ -1,6 +1,7 @@
 {
   "name": "beecrowd-problems",
-  "displayName": "beecrowd Problems",
+  "displayName": "Beecrowd Problems",
+  "publisher": "coded",
   "repository": {
     "type": "git",
     "url": "https://github.com/claudioavgo/beecrown-vs"},
