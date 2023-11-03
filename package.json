@@ -7,7 +7,7 @@
     "type": "git",
     "url": "https://github.com/claudioavgo/beecrown-vs"},
   "description": "View your beecrowd problems in your visual studio code",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.84.0" 
   },
