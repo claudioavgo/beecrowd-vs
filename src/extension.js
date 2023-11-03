@@ -42,8 +42,8 @@ function activate(context) {
 		  
 		  // Create a webview panel
 		  const panel = vscode.window.createWebviewPanel(
-			'beecrowndProblems', // Identificador único da webview
-			`Beecrownd Problem ${userInput}`, // Título da webview
+			'beecrowdProblems', // Identificador único da webview
+			`Beecrowd Problem ${userInput}`, // Título da webview
 			vscode.ViewColumn.Two, // Exibir na segunda coluna (metade da janela)
 			{}
 		  );
