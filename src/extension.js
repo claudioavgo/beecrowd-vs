@@ -16,7 +16,7 @@ function activate(context) {
 	console.log('Congratulations, your extension "beecrownd-problems" is now active!');
 
 	statusBarItem = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Right);
-  	statusBarItem.text = '$(rocket) BeeCrowd';
+  	statusBarItem.text = '$(sparkle) BeeCrowd';
   	statusBarItem.command = 'beecrownd-problems.getProblem'; // Vincule o ícone ao seu comando
 
   	// Adicione o item de status à barra de status
@@ -26,6 +26,7 @@ function activate(context) {
 	// Now provide the implementation of the command with  registerCommand
 	// The commandId parameter must match the command field in package.json
 	let disposable = vscode.commands.registerCommand('beecrownd-problems.getProblem', async () => {
+		
 		const userInput = await vscode.window.showInputBox({
 		  prompt: 'Digite o número da questão:'
 		});
@@ -50,7 +51,7 @@ function activate(context) {
 	
 		  panel.webview.html = content;
 		} catch (error) {
-		  vscode.window.showErrorMessage('Erro ao fazer a requisição GET: ' + error.message);
+		  vscode.window.showErrorMessage('Erro ao tentar carregar a página: ' + error.message);
 		}
 	  });
 
